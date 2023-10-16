@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_name_font_size">25sp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="vertical_baseline">20dp</dimen>
+    <dimen name="button_font_size">16sp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="big_title_font_size">30sp</dimen>
+    <dimen name="error_title_font_size">18sp</dimen>
+    <dimen name="edittext_label_font_size">15sp</dimen>
+    <dimen name="edittext_vertical_padding">13dp</dimen>
+    <dimen name="edittext_horizontal_padding">10dp</dimen>
+    <dimen name="edittext_font_size">15dp</dimen>
+</resources>

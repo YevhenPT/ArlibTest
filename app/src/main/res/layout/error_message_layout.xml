@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white_rect"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/vertical_baseline"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txvErrorTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="@dimen/error_title_font_size"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="@dimen/vertical_baseline"/>
+
+        <TextView
+            android:id="@+id/txvErrorMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="error message"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/vertical_baseline"/>
+
+        <TextView
+            android:id="@+id/txvClose"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/close"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_close_button"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/button_font_size"/>
+
+    </LinearLayout>
+
+</FrameLayout>

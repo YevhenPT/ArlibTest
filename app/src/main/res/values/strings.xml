@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ArlibTest</string>
+    <string name="type_your_username">Type your username...</string>
+    <string name="contact_us">Contact us</string>
+    <string name="user_name">UserName</string>
+    <string name="email">Email</string>
+    <string name="login">Log In</string>
+    <string name="type_your_email">Type your email...</string>
+    <string name="input_email">Please input email</string>
+    <string name="input_username">Please input username</string>
+    <string name="wrong_email">Please input correct email</string>
+    <string name="name">Name</string>
+    <string name="dose">Dose</string>
+    <string name="strength">Strength</string>
+    <string name="close">Close</string>
+    <string name="error">Error</string>
+    <string name="detail">Drug Detail</string>
+</resources>

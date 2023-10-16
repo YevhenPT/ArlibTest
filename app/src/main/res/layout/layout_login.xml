@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/vertical_baseline">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:paddingTop="@dimen/vertical_baseline"
+        style="@style/big_title_style" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/app_name_font_size"
+        android:paddingTop="@dimen/vertical_baseline"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grey_border"
+        android:paddingVertical="@dimen/edittext_vertical_padding"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:hint="@string/type_your_username"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/edittext_font_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_grey_border"
+        android:paddingVertical="@dimen/edittext_vertical_padding"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:hint="@string/type_your_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="@dimen/edittext_font_size"/>
+
+
+    <TextView
+        android:id="@+id/txvLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/bg_orange_rect"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp"/>
+
+</LinearLayout>
