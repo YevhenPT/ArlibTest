@@ -69,7 +69,16 @@
         android:gravity="center"
         android:textColor="@color/white"
         android:textSize="@dimen/button_font_size"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="70dp"/>
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/txvContact"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/contact_me"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_orange_rect"
+        android:textSize="@dimen/button_font_size"
+        android:layout_marginTop="@dimen/edittext_horizontal_padding" />
 
 </LinearLayout>

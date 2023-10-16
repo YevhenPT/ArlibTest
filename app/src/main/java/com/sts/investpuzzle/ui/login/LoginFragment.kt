@@ -36,6 +36,7 @@ class LoginFragment:BaseFragment<LoginViewModel,LayoutLoginBinding>() {
     override fun setUp() {
 
         viewBind.txvLogIn.setOnClickListener(this)
+        viewBind.txvContact.setOnClickListener(this)
 
     }
 
@@ -72,6 +73,9 @@ class LoginFragment:BaseFragment<LoginViewModel,LayoutLoginBinding>() {
                     }
 
                 }
+            R.id.txvContact ->{
+                findNavController().navigate(R.id.action_loginFragment_to_contactFragment)
+            }
 
         }
         super.onClick(v)
